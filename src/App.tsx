@@ -8,7 +8,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Routes />
-      <StatusBar backgroundColor={`${Colors.primary}`} translucent />
+      <StatusBar backgroundColor={`${Colors.primary}`} />
     </NavigationContainer>
   );
 };
